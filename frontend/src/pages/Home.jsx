@@ -37,7 +37,7 @@ function Home({ onCreateWallet, onImportWallet }) {
 
   return (
     <div className="card">
-      <h2>Welcome to Mock Web3 Wallet</h2>
+      <h2>Welcome to Cypher Wallet</h2>
       <p style={{ marginBottom: '2rem', color: '#666' }}>
         Create a new wallet or import an existing one using a 12-word mnemonic phrase.
       </p>
@@ -147,4 +147,5 @@ function Home({ onCreateWallet, onImportWallet }) {
 }
 
 export default Home;
+
 
