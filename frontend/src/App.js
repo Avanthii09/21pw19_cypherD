@@ -105,7 +105,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="app-header">
-          <h1>Mock Web3 Wallet</h1>
+          <h1>Cypher Wallet</h1>
           {wallet && (
             <div className="wallet-info">
               <span className="wallet-address">
@@ -189,3 +189,4 @@ function App() {
 }
 
 export default App;
+
