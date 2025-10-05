@@ -1,8 +1,9 @@
-Cypher Wallet
+**Cypher Wallet**
+
 A simple demo Web3 wallet built with React and Node.js.
 It lets you create or import a wallet using a 12-word phrase, view your ETH balance, send ETH or USD (converted to ETH in real time), sign and verify transactions, and view your transaction history.
 
-✨ Features
+**✨ Features**
 🪪 Create or import wallet — 12-word mnemonic phrase
 
 
@@ -22,12 +23,12 @@ It lets you create or import a wallet using a 12-word phrase, view your ETH bala
 
 
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 Frontend: React + ethers.js
  Backend: Node.js + Express + SQLite
  APIs: Skip API for USD → ETH price, optional SMTP/Telegram for notifications
 
- Quick Start
+** Quick Start**
 1. Clone & install
 git clone <your-repo-url>
 cd mock-web3-wallet
@@ -39,6 +40,7 @@ npm run migrate    # if you have a migrate script (or `npx prisma migrate dev`)
 npm run dev
 
 Backend runs at http://localhost:8080 (or the port you set in .env).
+
 3. Frontend setup
 cd ../frontend
 npm install
@@ -46,7 +48,7 @@ npm start
 
 Frontend runs at http://localhost:3000.
 
-🔑 How to Use
+🔑** How to Use**
 Open the app in your browser.
 
 
@@ -78,5 +80,6 @@ View your updated balance and transaction history.
 
 
 (Optional) Configure email or Telegram notifications in .env.
+
 
 
