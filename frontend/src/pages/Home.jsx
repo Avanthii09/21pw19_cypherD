@@ -140,11 +140,11 @@ function Home({ onCreateWallet, onImportWallet }) {
         border: '1px solid #e9ecef',
         fontSize: '0.875rem'
       }}>
-        <strong>Note:</strong> This is a demo wallet for educational purposes. 
-        Never use real funds or sensitive information with this application.
+      
       </div>
     </div>
   );
 }
 
 export default Home;
+
