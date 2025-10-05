@@ -211,19 +211,11 @@ function Settings({ wallet, onLogout }) {
       </div>
 
       <div className="card">
-        <h3>About</h3>
-        <div style={{ fontSize: '0.875rem', color: '#666' }}>
-          <p><strong>Mock Web3 Wallet</strong> - Version 1.0.0</p>
-          <p>This is a demonstration wallet for educational purposes.</p>
-          <p>Built with React, Express, and ethers.js</p>
-          <p style={{ marginBottom: 0 }}>
-            <strong>Note:</strong> This wallet is for demo purposes only. 
-            Do not use with real funds or sensitive information.
-          </p>
-        </div>
+       
       </div>
     </div>
   );
 }
 
 export default Settings;
+
